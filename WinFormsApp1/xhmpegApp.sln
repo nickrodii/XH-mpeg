@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1.csproj", "{F0788C98-8868-4528-AFDB-C31F25C9FD71}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xhmpegApp", "xhmpegApp.csproj", "{F0788C98-8868-4528-AFDB-C31F25C9FD71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
