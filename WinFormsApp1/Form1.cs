@@ -65,10 +65,50 @@ namespace WinFormsApp1
 
         private void videoSaveButton_Click(object sender, EventArgs e)
         {
-            if (videoSaveDialog.ShowDialog() == DialogResult.OK)
+            if (videoFolderDialog.ShowDialog() == DialogResult.OK)
             {
-                videoSaveDestination.Text = videoSaveDialog.FileName;
+                videoSaveDestination.Text = videoFolderDialog.SelectedPath;
             }
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void videoSaveDialog_FileOk(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+
+        }
+
+        private void videoSaveDialog_HelpRequest(object sender, EventArgs e)
+        {
+
+        }
+
+        private void videoFolderDialog_HelpRequest(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
