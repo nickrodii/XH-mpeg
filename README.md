@@ -11,3 +11,6 @@ This program includes the following features from FFmpeg:
 
 ## Project Completion Progress
 This program is nowhere near completion, and only features the GUI for what's to come. There will be a compiled executable available once the program has some functionality.
+
+## Note on downloading this program
+Since this program uses ffmpeg, ffprobe and ffplay, make sure to add those binaries into xhmpeg/tools/ffmpeg/ folder to ensure the program works upon building the application
