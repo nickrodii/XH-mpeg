@@ -30,8 +30,6 @@
         {
             tabVideo = new TabControl();
             tabPage1 = new TabPage();
-            label21 = new Label();
-            textBox8 = new TextBox();
             progressBar1 = new ProgressBar();
             groupBox3 = new GroupBox();
             label20 = new Label();
@@ -82,7 +80,8 @@
             videoFileDialog = new OpenFileDialog();
             audioFileDialog = new OpenFileDialog();
             videoFolderDialog = new FolderBrowserDialog();
-            label22 = new Label();
+            textBox8 = new TextBox();
+            label21 = new Label();
             tabVideo.SuspendLayout();
             tabPage1.SuspendLayout();
             groupBox3.SuspendLayout();
@@ -130,23 +129,6 @@
             tabPage1.Text = "Video";
             tabPage1.UseVisualStyleBackColor = true;
             tabPage1.Click += tabPage1_Click;
-            // 
-            // label21
-            // 
-            label21.AutoSize = true;
-            label21.Location = new Point(20, 326);
-            label21.Name = "label21";
-            label21.Size = new Size(60, 15);
-            label21.TabIndex = 17;
-            label21.Text = "File Name";
-            // 
-            // textBox8
-            // 
-            textBox8.Font = new Font("Segoe UI", 12F);
-            textBox8.Location = new Point(20, 344);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(320, 29);
-            textBox8.TabIndex = 16;
             // 
             // progressBar1
             // 
@@ -338,7 +320,6 @@
             // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(label22);
             groupBox2.Controls.Add(numericUpDown4);
             groupBox2.Controls.Add(numericUpDown3);
             groupBox2.Controls.Add(numericUpDown2);
@@ -411,7 +392,7 @@
             // label11
             // 
             label11.AutoSize = true;
-            label11.Location = new Point(78, 138);
+            label11.Location = new Point(6, 117);
             label11.Name = "label11";
             label11.Size = new Size(26, 15);
             label11.TabIndex = 17;
@@ -484,7 +465,6 @@
             videoSaveDestination.Name = "videoSaveDestination";
             videoSaveDestination.Size = new Size(320, 29);
             videoSaveDestination.TabIndex = 5;
-            videoSaveDestination.TextChanged += videoSaveDestination_TextChanged;
             // 
             // groupBox1
             // 
@@ -631,15 +611,22 @@
             // 
             videoFolderDialog.HelpRequest += videoFolderDialog_HelpRequest;
             // 
-            // label22
+            // textBox8
             // 
-            label22.AutoSize = true;
-            label22.Location = new Point(9, 117);
-            label22.Name = "label22";
-            label22.Size = new Size(66, 15);
-            label22.TabIndex = 25;
-            label22.Text = "Frame Rate";
-            label22.Click += label22_Click;
+            textBox8.Font = new Font("Segoe UI", 12F);
+            textBox8.Location = new Point(20, 344);
+            textBox8.Name = "textBox8";
+            textBox8.Size = new Size(320, 29);
+            textBox8.TabIndex = 16;
+            // 
+            // label21
+            // 
+            label21.AutoSize = true;
+            label21.Location = new Point(20, 326);
+            label21.Name = "label21";
+            label21.Size = new Size(60, 15);
+            label21.TabIndex = 17;
+            label21.Text = "File Name";
             // 
             // Form1
             // 
@@ -728,6 +715,5 @@
         private FolderBrowserDialog videoFolderDialog;
         private Label label21;
         private TextBox textBox8;
-        private Label label22;
     }
 }
